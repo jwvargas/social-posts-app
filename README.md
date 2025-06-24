@@ -1,5 +1,14 @@
 # Social Posts App - Prueba Técnica
 
+[![GitHub license](https://img.shields.io/github/license/jwvargas/social-posts-app)](https://github.com/jwvargas/social-posts-app/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/jwvargas/social-posts-app)](https://github.com/jwvargas/social-posts-app/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/jwvargas/social-posts-app)](https://github.com/jwvargas/social-posts-app/network)
+[![Java](https://img.shields.io/badge/Java-17-orange)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.0-brightgreen)](https://spring.io/projects/spring-boot)
+[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-7.0-green)](https://www.mongodb.com/)
+
 Una aplicación full-stack para visualizar y buscar publicaciones de redes sociales, desarrollada con React (frontend) y Spring Boot (backend).
 
 ## 📋 Descripción del Proyecto
@@ -148,7 +157,6 @@ npm start
 
 ### 📊 **500 Publicaciones Reales**
 - Base de datos MongoDB con contenido real de redes sociales
-- Importación automatizada desde archivo JSON
 - Backend optimizado para gestión de grandes volúmenes
 
 ### 📄 **Paginación Completa**
@@ -303,25 +311,31 @@ npm test
 7. **Hook personalizado**: Encapsulación de lógica compleja de estado
 8. **Datos reales**: 500 publicaciones reales en lugar de datos mock
 
-## 🚀 Próximas Mejoras
-
-- [ ] Autenticación y autorización
-- [x] **Paginación de resultados** ✅ *(Implementado: 10 por página)*
-- [ ] Filtros avanzados (fecha, autor, etc.)
-- [ ] Paginación server-side para datasets muy grandes
-- [ ] Modo oscuro
-- [ ] PWA (Progressive Web App)
-- [ ] Pruebas E2E con Cypress
-- [ ] Docker containerization
-- [ ] CI/CD pipeline
-
 ## 👨‍💻 Autor
+
+**jwvargas** - [GitHub](https://github.com/jwvargas)
 
 Desarrollado como prueba técnica para demostrar habilidades full-stack en React y Spring Boot.
 
+## 🤝 Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, lee [CONTRIBUTING.md](CONTRIBUTING.md) para más detalles sobre el proceso.
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
 ## 📄 Licencia
 
-Este proyecto es para fines educativos y de evaluación técnica.
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) for más detalles.
+
+## 🔗 Enlaces
+
+- **Repositorio**: [https://github.com/jwvargas/social-posts-app](https://github.com/jwvargas/social-posts-app)
+- **Demo**: [Ejecutar localmente](http://localhost:3000) siguiendo las instrucciones de instalación
+- **Documentación API**: Generar con `mvn javadoc:javadoc` y abrir `target/site/apidocs/index.html`
 
 ## 📚 Documentación del Código
 
